@@ -41,7 +41,7 @@ public class MainPage {
         return this;
     }
     // кликаем нижнюю кнопку заказать
-    public void clickRentButtonBOTTOM() {
+    public void clickRentButtonBottom() {
         driver.findElement(bottomButton).click();
     }
     //закрываем куки

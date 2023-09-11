@@ -3,7 +3,6 @@ package praktikum;
 import org.hamcrest.MatcherAssert;
 import org.junit.Rule;
 import org.junit.Test;
-//import praktikum.pages.*;
 
 public class OrderResult {
 
@@ -48,7 +47,7 @@ public class OrderResult {
         mainPage.open()                             //открываем главную
                 .clickCookies()                      //убираем куки
                 .scrollToBottomButton()             //скроллим до нижней кнопки
-                .clickRentButtonBOTTOM();           //кликаем заказать
+                .clickRentButtonBottom();           //кликаем заказать
 
         OrderPage orderPage = new OrderPage(driverRule.getDriver()); //открывается страница заказа
 
